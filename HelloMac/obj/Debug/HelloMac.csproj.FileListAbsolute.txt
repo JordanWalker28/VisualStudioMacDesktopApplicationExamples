@@ -1,0 +1,13 @@
+/Users/jordanswalker/Projects/HelloMac/HelloMac/bin/Debug/HelloMac.exe
+/Users/jordanswalker/Projects/HelloMac/HelloMac/bin/Debug/HelloMac.pdb
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/actool/_PartialAppManifest.items
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/HelloMac.csprojAssemblyReference.cache
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/HelloMac.csproj.CoreCompileInputs.cache
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/HelloMac.exe
+/Users/jordanswalker/Projects/HelloMac/HelloMac/obj/Debug/HelloMac.pdb

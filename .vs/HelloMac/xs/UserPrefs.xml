@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{5AB500A6-334A-4A35-BDAA-B5C1FB2A6072}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloMac/AppDelegate.cs">
+    <Files>
+      <File FileName="HelloMac/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="HelloMac/Main.storyboard" Line="738" Column="1" />
+      <File FileName="HelloMac/ViewController.designer.cs" Line="16" Column="27" />
+      <File FileName="HelloMac/Entitlements.plist" />
+      <File FileName="HelloMac/Info.plist" />
+      <File FileName="HelloMac/Main.cs" Line="1" Column="1" />
+      <File FileName="HelloMac/ViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloMac" expanded="True">
+            <Node name="HelloMac" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloMac PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
