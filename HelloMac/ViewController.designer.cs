@@ -13,16 +13,38 @@ namespace HelloMac
 	partial class ViewController
 	{
 		[Outlet]
+		AppKit.NSTextField inputText { get; set; }
+
+		[Outlet]
 		AppKit.NSTextField labelInfo { get; set; }
 
-		[Action ("Press:")]
-		partial void Press (Foundation.NSObject sender);
+		[Outlet]
+		AppKit.NSTextField outputText { get; set; }
+
+		[Action ("Build:")]
+		partial void Build (Foundation.NSObject sender);
+
+		[Action ("Higher:")]
+		partial void Higher (Foundation.NSObject sender);
+
+		[Action ("Lower:")]
+		partial void Lower (Foundation.NSObject sender);
 		
 		void ReleaseDesignerOutlets ()
 		{
 			if (labelInfo != null) {
 				labelInfo.Dispose ();
 				labelInfo = null;
+			}
+
+			if (inputText != null) {
+				inputText.Dispose ();
+				inputText = null;
+			}
+
+			if (outputText != null) {
+				outputText.Dispose ();
+				outputText = null;
 			}
 		}
 	}

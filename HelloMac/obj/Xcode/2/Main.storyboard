@@ -710,17 +710,20 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39B-R6-ChP">
-                                <rect key="frame" x="114" y="171" width="96" height="32"/>
+                                <rect key="frame" x="115" y="171" width="96" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Press Me" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kqT-3l-avX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="Press:" target="XfG-lQ-9wD" id="yvB-e1-8tz"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LxQ-By-0kj">
-                                <rect key="frame" x="237" y="178" width="80" height="19"/>
+                                <rect key="frame" x="253" y="178" width="80" height="19"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="0" id="Vz6-hb-dvM">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="0" placeholderString="labelInfo" id="Vz6-hb-dvM">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -728,6 +731,9 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="labelInfo" destination="LxQ-By-0kj" id="zeY-P6-Y8Y"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

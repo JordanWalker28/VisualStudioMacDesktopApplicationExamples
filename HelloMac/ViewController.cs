@@ -31,12 +31,21 @@ namespace HelloMac
             }
         }
 
-        partial void Press(NSObject sender)
+        partial void Higher(NSObject sender)
         {
             int count = Int32.Parse(labelInfo.StringValue);
             Console.WriteLine("Press Me Pressed");
             count += 1;
             labelInfo.StringValue = count.ToString();
         }
+
+        partial void Lower(NSObject sender)
+        {
+            int count = Int32.Parse(labelInfo.StringValue);
+            Console.WriteLine("Press Me Pressed");
+            count -= 1;
+            labelInfo.StringValue = count.ToString();
+        }
+
     }
 }

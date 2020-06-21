@@ -9,6 +9,16 @@
 
 @implementation ViewController
 
-- (IBAction)Press:(id)sender {
+@synthesize labelInfo = _labelInfo;
+@synthesize inputText = _inputText;
+@synthesize outputText = _outputText;
+
+- (IBAction)Build:(id)sender {
 }
+
+- (IBAction)Higher:(id)sender {
+}
+- (IBAction)Lower:(id)sender {
+}
+
 @end

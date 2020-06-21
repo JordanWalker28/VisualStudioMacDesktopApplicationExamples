@@ -10,10 +10,15 @@
 
 
 @interface ViewController : NSViewController {
-    NSTextField *labelInfo;
+	NSTextField *_labelInfo;
+    NSTextField *_inputText;
+    NSTextField *_outputText;
 }
-@property (unsafe_unretained) IBOutlet NSTextField *labelInfo;
 
-- (IBAction)Press:(id)sender;
+@property (nonatomic, retain) IBOutlet NSTextField *labelInfo;
+@property (nonatomic, retain) IBOutlet NSTextField *inputText;
+@property (nonatomic, retain) IBOutlet NSTextField *outputText;
+
+
 
 @end
