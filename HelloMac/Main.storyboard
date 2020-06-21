@@ -728,7 +728,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="Build:" target="XfG-lQ-9wD" id="kux-Gy-PgL"/>
+                                    <action selector="Build:" target="XfG-lQ-9wD" id="TZ5-sa-rwD"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LxQ-By-0kj">
@@ -760,7 +760,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="inputText:" target="XfG-lQ-9wD" id="znH-3S-t0F"/>
+                                    <action selector="takeStringValueFrom:" target="Ydp-NX-Pkp" id="fmW-eH-GkH"/>
                                 </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="czV-Y6-ElF">
@@ -799,7 +799,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="Output:" target="XfG-lQ-9wD" id="HPi-6q-LEP"/>
+                                    <action selector="print:" target="Ydp-NX-Pkp" id="BeF-y9-RQj"/>
                                 </connections>
                             </textField>
                         </subviews>

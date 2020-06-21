@@ -47,5 +47,17 @@ namespace HelloMac
             labelInfo.StringValue = count.ToString();
         }
 
+        partial void Build(NSObject sender)
+        {
+            if(inputText.StringValue != null)
+            {
+                outputText.StringValue = "null";
+            }
+            else
+            {
+                outputText.StringValue = inputText.ToString();
+            }
+        }
+
     }
 }
